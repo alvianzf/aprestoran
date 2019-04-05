@@ -1,7 +1,8 @@
 <?php
 
-mysql_connect("localhost", "root", "");
+mysql_connect("localhost", "root", "root");
 
-mysql_select_db("db_resto");
+$db = mysql_select_db("db_resto");
+
 
 ?>
